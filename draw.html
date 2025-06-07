@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html,body{
+        height: 100vh;
+        width: 100vw;
+        
+
+    }
+    body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+
+    #c{
+     
+        border: 1px solid red;
+        height: 80vh;
+        width: 80%;
+       
+    }
+    .colors{
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .color-item{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+     
+    }
+    .selected{
+        border: 2px black solid;
+    }
+     .selected-black{
+        border: 2px red solid;
+    }
+    .options{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+</style>
+<body>
+    <canvas id="c" width ="500px" ; canvas. height ="500px"></canvas>
+    <div class="options">
+        
+        <div class="colors" id="colorsDiv"></div>
+        <button id="clearCanva">Clear</button>
+       
+    </div>
+</body>
+<script src="draw.js"></script>
+
+</html>
