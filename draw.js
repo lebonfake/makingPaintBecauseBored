@@ -4,7 +4,7 @@ var context = canvas.getContext("2d");
 var colorsDiv = document.getElementById("colorsDiv");
 
 var selectedColor = "black";
-var colors = ["black", "red", "blue", "purple","green"];
+var colors = ["black", "red", "blue", "purple","green","yellow","brown"];
 loadColorItems();
 
 canvas.width = canvas.offsetWidth;
